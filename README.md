@@ -19,15 +19,15 @@ Ejercicios comandos Linux
   ls –d /etc/[^t]*
 9. Listar todos los archivos del directorio usr y sus subdirectorios.  
   ls –R /usr
-10. Cambiarse al directorio tmp, crear directorio PRUEBA.  
-  cd /tmp
+10. Cambiarse al directorio $HOME, crear directorio PRUEBA.  
+  cd $HOME 
   mkdir PRUEBA
 11. Verificar que el directorio actual ha cambiado.  
   pwd
 12. Mostrar el día y la hora actual.  
   date
 13. Con un solo comando posicionarse en el directorio $HOME.  
- cd /home
+ cd $HOME
 14. Verificar que se está en él.  
   pwd
 15. Listar todos los ficheros del directorio HOME mostrando su número de inodo.  
